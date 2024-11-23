@@ -1,0 +1,38 @@
+table {
+    font-size: 22px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f23d;
+    font-size: small;
+}
+
+.image-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.reveal .slide-number {
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: #666;
+    /* Changes color */
+}
